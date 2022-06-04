@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resources/style.css" />
+    <title>Personal portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <li><a href="#testimonial" onclick="toggleMenu();">Resume</a></li>
+      </ul>
+    </header>
+    <section class="banner">
+      <div class="textBx">
+        <h2>Hello, I'm <br /><span>Vasu Khandelwal.</span></h2>
+        <h3>I'm a Web developer</h3>
+        <a href="#about" class="btn">About Me</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>About</h2>
+      </div>
+      <div class="content">
+        <div class="contentBx W50">
+          <h3>I'm a Web developer based in Jaipur,Rajasthan.</h3>
+          <p>
+            Currently, vasu is an undergraduate student studying at BITS,
+            PILANI. I am an enthusiast who loves to make great designs. I've
+            always sought out opportunities and challenges that are meaningful
+            to me. I enjoy turning complex problems into simple, beautiful and
+            intuitive designs. When i am not Pushing Pixels, you'll find me
+            gymming, binging, and my first love sleeping. Oh! also I love Maa ke
+            haath ke parothe.
+          </p>
+        </div>
+        <div class="W50 img-W50">
+          <img src="resources/images/vasu3.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="heading white">
+        <h2>our services</h2>
+        <p>
+          I love to experiment with the things and below are the things i
+          experiment with most.
+        </p>
+      </div>
+      <div class="content">
+        <div class="serviceBx">
+          <img src="resources/images/icon1.png" alt="" />
+          <h2>Web Design</h2>
+          <p>I always try to make a simple and innovative design.</p>
+        </div>
+        <div class="serviceBx">
+          <img src="resources/images/icon2.png" alt="" />
+          <h2>Web Development</h2>
+          <p>Code that is less and takes less time to load.</p>
+        </div>
+        <!-- <div class="serviceBx">
+          <img src="resources/images/icon3.png" alt="" />
+          <h2>Android App</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            consecteturlorem ut massa bibendum fermentum. Donec facilisis
+            bibendum risus, non gravida est facilisis ut.
+          </p>
+        </div> -->
+        <div class="serviceBx">
+          <img src="resources/images/icon4.png" alt="" />
+          <h2>Photography</h2>
+          <p>Many dont know but i am a very good photographer.</p>
+        </div>
+        <div class="serviceBx">
+          <img src="resources/images/icon5.png" alt="" />
+          <h2>Content Writer</h2>
+          <p>I am part of press club since my first year in college.</p>
+        </div>
+        <!-- <div class="serviceBx">
+                <img src="resources/images/icon6.png" alt="">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consecteturlorem
+                     ut massa bibendum fermentum. Donec facilisis bibendum risus, non gravida 
+                    est facilisis ut. </p>
+            </div> -->
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="heading">
+        <h2>our Latest Work</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          consectetur
+        </p>
+      </div>
+      <div class="content">
+        <div class="workBX">
+          <img src="resources/images/product1.jpg" alt="" />
+        </div>
+        <div class="workBX">
+          <img src="resources/images/product2.jpg" alt="" />
+        </div>
+        <div class="workBX">
+          <img src="resources/images/product3.jpg" alt="" />
+        </div>
+        <div class="workBX">
+          <img src="resources/images/product4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="heading">
+        <a href="#" class="btn"> View More</a>
+      </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+      <div class="heading">
+        <h2>Testimonials</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          consectetur
+        </p>
+      </div>
+      <div class="content">
+        <div class="testimonialBx">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            consecteturlorem ut massa bibendum fermentum. Donec facilisis
+            bibendum risus, non gravida est facilisis ut. ut massa bibendum
+            fermentum. Donec facilisis bibendum risus, non gravida est facilisis
+            ut.
+          </p>
+          <h3>
+            Someone famous<br />
+            <span>Creative Designer</span>
+          </h3>
+        </div>
+        <div class="testimonialBx">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            consecteturlorem ut massa bibendum fermentum. Donec facilisis
+            bibendum risus, non gravida est facilisis ut. ut massa bibendum
+            fermentum. Donec facilisis bibendum risus, non gravida est facilisis
+            ut.
+          </p>
+          <h3>
+            Someone famous<br />
+            <span>Creative Designer</span>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="heading white">
+        <h2>Contact Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          consectetur
+        </p>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Contact Info</h3>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>
+                  Shiv Vihar colony, Near DP hospital, <br />
+                  Paota, Jaipur(raj.) <br />303106
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>+91-7791932421</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-envelope-open-text"></i>
+              </div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>vasu241057@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="formBx">
+          <form action="">
+            <h3>Message Me</h3>
+            <input type="text" placeholder="Your name" />
+            <input type="text" placeholder="Email" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="3"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" value="send" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>made with love❤️</p>
+      <p>© Vasu Khandelwal</p>
+    </div>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      function toggleMenu() {
+        var menuToggle = document.querySelector(".toggle");
+        menuToggle.classList.toggle("active");
+        var menu = document.querySelector(".menu");
+        menu.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
